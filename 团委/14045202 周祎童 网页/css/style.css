@@ -1,0 +1,122 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }                    
+
+
+html {
+    overflow-y:scroll
+  }/* 对溢出边框的内容进行剪裁 */
+          
+body{text-shadow:#fff 0 1px 0;/* 字体阴影 */
+     color:#2c2c2c;
+     font-family:"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial;
+     font-weight:400;/*字体的粗细*/
+     font-style:normal;/* 该属性设置使用斜体、倾斜或正常字体 */
+     font-variant:normal;/* 设置小型大写字母的字体显示文本 */
+     line-height:normal;
+     background-color:#EFECDD;
+     margin:0;
+     padding:0;
+     padding-top:15px;
+   }
+
+.banner {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0;
+    background-image: url("../images/碎花背景.jpg");
+    background-position: 20% 30%;/* 设置背景图片的起始位置 （xpx，ypx）*/
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    height: 170px;
+}
+
+.banner > h1,.banner > h2{
+  color: black;
+  text-indent: 50px;
+  font-family: "黑体" ;
+}
+
+.banner > h1{
+  padding-top: 50px;
+}
+
+.menu{
+  padding-left: 100px;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.menu > ul > li {
+  float: left;
+  margin: 10px 50px;
+  color: black;
+  font-family: "黑体";
+  list-style-type: none;
+}
+
+.foot{
+  background-color: #CD8C95;
+  padding: 30px;
+  text-align: center;
+}
+
+p{
+  text-indent: 2em;
+}
+
+.total{
+  position: relative;
+  overflow: hidden;
+  width: 95%;
+  margin:50px auto;
+  padding: 20px;
+  height: 1000px;
+  /*background-color: #eee;*/
+  /*border: #999;*/
+}
+
+.left{
+  float: left;
+  border:2px solid #eeeeee;
+  width: 200px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 10px #eeeeee;
+}
+
+.left p{
+  float: right;
+}
+
+.right{
+  float: right;
+  padding: 20px;
+  width: 250px;
+  background-color: white;
+  text-align: center;
+}
+
+.right>div{
+  border: 2px solid #eeeeee;
+  box-shadow: 5px 5px 10px #eeeeee;
+  margin-bottom: 40px;
+  padding: 10px 25px;
+}
+
+.middle{
+  position: absolute;
+  padding: 20px;
+  /*height: 1000px;*/
+  margin-left: 200px;
+  margin-right: 250px;
+  background-color: white;
+}
+
+.middle>div{
+  border: 2px solid #eeeeee;
+  box-shadow: 5px 5px 10px #eeeeee;
+  margin-bottom: 40px;
+  padding: 10px 25px;
+}
